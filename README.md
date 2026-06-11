@@ -10,3 +10,8 @@ Have another RPI lying around? Well, you can turn them into a cluster.
 ( For best results, use a gpio screen like Hosyond's 3.5 Inch Display and a microphone for AI, they are good for this )
 
 To add another raspberry, download the cluster file and install it on the less powerfull raspberry pi. Even if you don't install a screen, it will just work as second hardware. 
+
+**TO RUN AND INSTALL**
+git clone https://github.com/<yourname>/ALPHA.git
+cd ALPHA
+./install.sh
