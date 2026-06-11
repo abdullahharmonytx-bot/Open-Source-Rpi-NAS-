@@ -12,7 +12,7 @@ Have another RPI lying around? Well, you can turn them into a cluster.
 To add another raspberry, download the cluster file and install it on the less powerfull raspberry pi. Even if you don't install a screen, it will just work as second hardware. 
 
 **TO RUN AND INSTALL**
-git clone https://github.com/abdullahharmo/ALPHA.git
+git clone https://github.com/TheC03L/Open-Source-Rpi-NAS.git
 
 cd ALPHA
 
