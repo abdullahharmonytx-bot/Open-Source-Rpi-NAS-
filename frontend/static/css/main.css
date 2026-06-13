@@ -90,3 +90,30 @@ body{
     box-shadow:
     0 0 20px rgba(255,255,255,.2);
 }
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:rgba(255,255,255,0.08);
+
+    color:white;
+
+    outline:none;
+
+    backdrop-filter:blur(10px);
+}
+
+input::placeholder{
+    color:rgba(255,255,255,0.6);
+}
+
+form{
+    margin-top:20px;
+}
