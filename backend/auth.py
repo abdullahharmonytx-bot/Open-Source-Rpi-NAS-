@@ -1,4 +1,5 @@
 from backend.database import connect_db
+from backend.security import hash_password
 
 def admin_exists():
 
@@ -19,7 +20,7 @@ def admin_exists():
 def create_admin(
     full_name,
     username,
-    password
+    hash_password(password),
 ):
 
     conn = connect_db()
